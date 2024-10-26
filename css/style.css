@@ -210,7 +210,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: #8da0b0;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -881,6 +881,37 @@ body.offcanvas {
       background: #4682b4; }
     .progress-bar.color-15 span {
       color: #4682b4; }
+    /* For all 90% progress bars */
+    .progress-bar.percent-90 {
+        background: #2c98f0;
+    }
+    .progress-bar.percent-90:after {
+        background: #2c98f0;
+    }
+    .progress-bar.percent-90 span {
+        color: #2c98f0;
+    }
+    /* For all 80% progress bars */
+    .progress-bar.percent-80 {
+        background: #4054b2;
+    }
+    .progress-bar.percent-80:after {
+        background: #4054b2;
+    }
+    .progress-bar.percent-80 span {
+        color: #4054b2;
+    }
+    /* For all 75% progress bars */
+    .progress-bar.percent-75 {
+        background: #ec5453;
+    }
+    .progress-bar.percent-75:after {
+        background: #ec5453;
+    }
+    .progress-bar.percent-75 span {
+        color: #ec5453;
+    }
+
 
 
 .colorlib-feature {
